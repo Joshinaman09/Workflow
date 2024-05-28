@@ -27,4 +27,9 @@ def print_new_address():
 
     print(f"address: {address}")
 
-    
+
+
+def print_new_locality():
+    locality = int(input('Enter your locality:'))
+
+    print(f"locality: {locality}")
