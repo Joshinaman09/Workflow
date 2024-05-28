@@ -19,3 +19,12 @@ def print_user_details():
 
 # Call the function to execute the code
 print_user_details()
+
+
+
+def print_new_address():
+    address = int(input('Enter your address:'))
+
+    print(f"address: {address}")
+
+    
