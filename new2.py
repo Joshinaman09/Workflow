@@ -32,6 +32,9 @@ def print_new_address():
 def print_new_locality():
     locality = int(input('Enter your locality:'))
     area = int(input('Enter new area:'))
+    blood_group = int(input('Enter blood group:'))
 
+
+    print(f'blood_group:{blood_group}')
     print(f"locality: {locality}")
     print(f'area:{area}')
