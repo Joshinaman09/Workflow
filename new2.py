@@ -31,5 +31,7 @@ def print_new_address():
 
 def print_new_locality():
     locality = int(input('Enter your locality:'))
+    area = int(input('Enter new area:'))
 
     print(f"locality: {locality}")
+    print(f'area:{area}')
